@@ -8,13 +8,13 @@ public class VariableInputs {
         String str = scanner.nextLine();
 
         System.out.println("Enter an integer:");
-        int num = Integer.valueOf(scanner.nextLine());
+        int num = scanner.nextInt();
 
         System.out.println("Enter a double:");
-        double dec = Double.valueOf(scanner.nextLine());
+        double dec = scanner.nextDouble();
 
         System.out.println("Enter a boolean value:");
-        boolean bool = Boolean.valueOf(scanner.nextLine());
+        boolean bool = scanner.nextBoolean();
 
         scanner.close();
 
